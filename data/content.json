@@ -1,0 +1,12 @@
+[
+  {
+    "id": "test-1",
+    "title": "Test Movie - Replace with Scraper Output",
+    "type": "movies",
+    "year": 2025,
+    "thumbnail": "https://via.placeholder.com/300x169?text=Test+Movie",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "description": "This is a test entry. Your scraper should replace this file with real content.",
+    "comingSoon": false
+  }
+]

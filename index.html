@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieShows - Discover Your Next Obsession</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">MovieShows</h1>
+                <div class="header-actions">
+                    <button class="btn-toggle-panel" id="togglePanel" aria-label="Toggle Browse Panel">
+                        <span class="icon">📚</span>
+                        <span>Browse</span>
+                    </button>
+                    <button class="btn-favorites" id="toggleFavorites" aria-label="View Favorites">
+                        <span class="icon">❤️</span>
+                        <span id="favoritesCount">0</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Video Player Section -->
+            <section class="player-section">
+                <div class="player-container">
+                    <div class="video-wrapper">
+                        <video 
+                            id="videoPlayer" 
+                            class="video-player" 
+                            controls 
+                            poster=""
+                            preload="metadata">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="player-overlay">
+                            <div class="player-controls-top">
+                                <button class="btn-like" id="btnLike" aria-label="Like">
+                                    <span class="icon">👍</span>
+                                </button>
+                                <button class="btn-favorite" id="btnFavorite" aria-label="Add to Favorites">
+                                    <span class="icon">❤️</span>
+                                </button>
+                            </div>
+                            <div class="player-info">
+                                <h2 class="current-title" id="currentTitle">Select a video to play</h2>
+                                <p class="current-description" id="currentDescription"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Queue Section -->
+                <div class="queue-section">
+                    <div class="queue-header">
+                        <h3>Up Next</h3>
+                        <span class="queue-count" id="queueCount">0 items</span>
+                    </div>
+                    <div class="queue-container" id="queueContainer">
+                        <div class="queue-empty" id="queueEmpty">
+                            <p>Your queue is empty. Add videos from the browse panel!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Browse Side Panel -->
+        <aside class="side-panel" id="sidePanel">
+            <div class="panel-header">
+                <h2>Browse Content</h2>
+                <button class="btn-close-panel" id="closePanel" aria-label="Close Panel">✕</button>
+            </div>
+            <div class="panel-search">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Search movies and shows..."
+                >
+            </div>
+            <div class="panel-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="movies">Movies</button>
+                <button class="filter-btn" data-filter="tv">TV Shows</button>
+                <button class="filter-btn" data-filter="coming-soon">Coming Soon</button>
+            </div>
+            <div class="panel-content" id="panelContent">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </aside>
+
+        <!-- Favorites Panel -->
+        <aside class="favorites-panel" id="favoritesPanel">
+            <div class="panel-header">
+                <h2>My Favorites</h2>
+                <button class="btn-close-panel" id="closeFavorites" aria-label="Close Favorites">✕</button>
+            </div>
+            <div class="panel-content" id="favoritesContent">
+                <div class="favorites-empty">
+                    <p>No favorites yet. Start liking videos!</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Overlay for panels -->
+        <div class="overlay" id="overlay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
