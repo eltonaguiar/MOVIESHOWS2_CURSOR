@@ -1,10 +1,36 @@
+SCROLLING IS BROKEN HERE.
+
+da42d1a8dab68e4b.js:1 Uncaught Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (da42d1a8dab68e4b.js:1:45807)
+    at rX (da42d1a8dab68e4b.js:1:46840)
+    at da42d1a8dab68e4b.js:1:140559
+    at sp (da42d1a8dab68e4b.js:1:145720)
+    at sc (da42d1a8dab68e4b.js:1:137060)
+    at da42d1a8dab68e4b.js:1:131889
+    at u9 (da42d1a8dab68e4b.js:1:131990)
+    at sV (da42d1a8dab68e4b.js:1:158372)
+    at MessagePort.O (da42d1a8dab68e4b.js:1:7339)
+eltonaguiar.github.io/:1  Failed to load resource: the server responded with a status of 404 ()
+eltonaguiar.github.io/:1  Failed to load resource: the server responded with a status of 404 ()
+dxXJAqOU00g?autoplay=1&controls=0&playsinline=1&loop=1&playlist=dxXJAqOU00g&modestbranding=1&rel=0&…:1 Access to fetch at 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=653902627&cv_attributed=0' (redirected from 'https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=653902627') from origin 'https://www.youtube.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=653902627&cv_attributed=0:1  Failed to load resource: net::ERR_FAILED
+dxXJAqOU00g?autoplay=1&controls=0&playsinline=1&loop=1&playlist=dxXJAqOU00g&modestbranding=1&rel=0&…:1 Access to fetch at 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=633437985&cv_attributed=0' (redirected from 'https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=633437985') from origin 'https://www.youtube.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=633437985&cv_attributed=0:1  Failed to load resource: net::ERR_FAILED
+dxXJAqOU00g?autoplay=1&controls=0&playsinline=1&loop=1&playlist=dxXJAqOU00g&modestbranding=1&rel=0&…:1 Access to fetch at 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=35988811&cv_attributed=0' (redirected from 'https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=35988811') from origin 'https://www.youtube.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=35988811&cv_attributed=0:1  Failed to load resource: net::ERR_FAILED
+dxXJAqOU00g?autoplay=1&controls=0&playsinline=1&loop=1&playlist=dxXJAqOU00g&modestbranding=1&rel=0&…:1 Access to fetch at 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=685312708&cv_attributed=0' (redirected from 'https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=685312708') from origin 'https://www.youtube.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20260130&foc_id=f5CjDJvsFvtVIhkfmKAwAA&label=followon_view&ptype=no_rmkt&random=685312708&cv_attributed=0:1  Failed to load resource: net::ERR_FAILED
+
+-----------
 # MovieShows - TikTok-Style Movie Discovery
 
 A TikTok-style movie and TV show trailer discovery app with vertical scrolling navigation.
 
 ## 🎬 Live Demo
 
-**GitHub Pages**: [https://eltonaguiar.github.io/MOVIESHOWS/](https://eltonaguiar.github.io/MOVIESHOWS/)
+**GitHub Pages**: [https://eltonaguiar.github.io/MOVIESHOWS2_cursor/](https://eltonaguiar.github.io/MOVIESHOWS2_Cursor/)
+
+
 
 **Production** (Coming Soon): `https://findtorontoevents.ca/MOVIESHOWS/`
 
