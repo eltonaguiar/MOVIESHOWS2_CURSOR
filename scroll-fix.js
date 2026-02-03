@@ -212,7 +212,7 @@
     }
 
     document.addEventListener("wheel", handleWheel, { passive: false });
-    document.addEventListener("keydown", handleKeydown);
+    document.addEventListener("keydown", handleKeydown, { passive: true });
     document.addEventListener("touchstart", handleTouchStart, { passive: true });
     document.addEventListener("touchend", handleTouchEnd, { passive: true });
 
